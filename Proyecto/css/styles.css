@@ -1,0 +1,161 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(49, 57, 104);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    color: #f4f4f4;
+}
+
+h1, h2 {
+    color: #e42f2c;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section strong {
+    color: #cb1606;
+}
+
+.carousel-item img {
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+:root {
+    --asus-blue: #0D47A1;
+    --asus-dark-blue: #002171;
+    --asus-purple: #4A148C;
+    --asus-grey: #E0E0E0;
+    --asus-dark-grey: #424242;
+    --asus-black: #212121;
+}
+
+.product-header {
+    background: url('images/laptop_header.jpg') center/cover no-repeat;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--asus-grey);
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+.product-header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--asus-blue);
+}
+
+.product-header p {
+    font-size: 1.25rem;
+}
+
+.btn-primary {
+    background-color: var(--asus-purple);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: var(--asus-dark-blue);
+}
+
+.product-description {
+    color: var(--asus-dark-grey);
+}
+
+.specifications {
+    background-color: var(--asus-grey);
+    padding: 2rem 0;
+    border-top: 4px solid var(--asus-purple);
+}
+
+.spec-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: var(--asus-blue);
+    border-bottom: 2px solid var(--asus-purple);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.gallery-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+blockquote {
+    background-color: var(--asus-light-grey);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: var(--asus-dark-blue);
+    color: white;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.specs, .reviews {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+}
+
+.specs-title, .gallery-title, .review-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #343a40;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    margin-bottom: 1rem;
+}
+
+.gallery-img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
